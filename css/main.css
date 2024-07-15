@@ -1,0 +1,226 @@
+{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
+body {
+    font-family: Karla;
+    background-color: #f3f0e9;
+    color: #000000;
+}
+
+.skip-link {
+    position: absolute;
+    top: -40px;
+    left: 0;
+    background: #000;
+    color: #fff;
+    padding: 8px;
+    z-index: 100;
+}
+
+
+
+header {
+    background: black;
+    padding: 20px 0;
+    width: 700px;
+    
+}
+
+nav ul {
+    list-style: none;
+    text-align: center;
+    padding: 0;
+   flex-direction: column;
+    justify-content: space-around;
+}
+
+nav li {
+    display: inline;
+    margin: 11px 0;
+}
+
+nav ul li a {
+    
+    color: white;
+    font-size: 1rem;
+    font-family: Lato;
+    padding: 10px;
+    font-weight: 700;
+}
+
+nav a:hover, nav a:focus {
+    color: #000;
+    background-color: #966f2c;
+    padding: 0.5rem;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+}
+
+main {
+    padding: 20px;
+    text-align: center;
+}
+.wrapper {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 1rem;  
+   
+}
+
+div img {
+    width: 700px; 
+    height: 500px;
+    display: block;
+}
+
+h1 {
+    font-size: 2.027rem;
+    position: absolute;
+    top: 8.5em;
+    color: white;
+    text-align: center;
+ }
+
+  .home p {
+    position: absolute;
+    top: 24em;
+    font-size: 1rem;
+    text-align: center;
+    color: #fff;
+    font-family: karla;
+ }
+
+ button {
+   
+ 
+    text-align: center;
+    padding: 1em;
+    margin: 10em;
+    background-color: white;
+    border-top: #000 solid 1px;
+    
+    
+    
+     }
+
+          
+     h2, h7 {
+        color: #d69e3d;
+        font-size: 1.802rem;
+        
+     }
+
+     h3, h4, h5, h6 {
+        font-size: 2.027rem;
+        
+       
+     }
+
+     
+
+     h4, h5, h6 {
+        text-align: center;
+        margin: 1px;
+     }
+
+      .h7 {
+        position: absolute;
+        top: 2em;
+     }
+
+     .h8 {
+        font-size: 3.815rem;
+     }
+
+     p {
+        font-size: 1.5rem;
+     }
+
+
+
+      .about h2, h3,p {
+        margin: 1%;
+        padding: 1%;
+        
+      }
+      
+      .about p {
+        font-size: 1.5rem;
+        
+      }
+
+      blockquote {
+        border-bottom: #000;
+        background-color: #000000;
+        padding: 2em;
+        row-gap: 2em;
+        margin: 0;
+      }
+
+      blockquote img {
+        width: 52em;
+        height: 50em;
+        gap: 2em;
+        margin: 0;
+        padding: 0;
+        
+      }
+
+      blockquote p {
+        color: white;
+        
+      }
+
+      footer {
+        background-color: black;
+        color: white;
+        padding: 20px 0;
+        text-align: center;
+        border-top: 2px solid black;
+    }
+  
+       form {
+        display: flex;
+        flex-direction: column;
+        gap: 1em;
+       }
+
+      
+
+       /* Media Queries */
+@media (min-width: 768px) {
+    h1 {
+        font-size: 2.986rem;
+    }
+
+    h2 {
+        font-size: 2.488rem;
+    }
+
+    h3 {
+        font-size: 1.728rem;
+    }
+
+    nav a {
+        font-size: 1.2rem;
+    }
+
+
+
+@media (min-width: 1100px) {
+    h1 {
+        font-size: 3.815rem;
+    }
+
+    h2 {
+        font-size: 3.052rem;
+    }
+
+    h3 {
+        font-size: 1.953rem;
+    }
+ 
